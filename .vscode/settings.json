@@ -1,0 +1,33 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.debug.settings.onBuildFailureProceed": true,
+    "maven.executable.path": "mvn",
+    "maven.terminal.customEnv": [
+        {
+            "environmentVariable": "JAVA_HOME",
+            "value": "C:\\Program Files\\Java\\jdk-17"
+        }
+    ],
+    "maven.view": "flat",
+    "java.project.sourcePaths": ["src/main/java"],
+    "java.project.outputPath": "target/classes",
+    "java.project.referencedLibraries": [
+        "target/**/*.jar"
+    ],
+    "files.autoSave": "afterDelay",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true,
+        "bin/": true
+    },
+    "java.format.settings.url": ".vscode/eclipse-java-google-style.xml",
+    "java.jdt.ls.vmargs": "-Xmx2048m -XX:+UseG1GC -XX:+UseStringDeduplication"
+}

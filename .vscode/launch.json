@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Payment Tracker",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "payment-tracker-flatfile",
+            "vmArgs": "-Dfile.encoding=UTF-8"
+        },
+        {
+            "type": "java",
+            "name": "Run Maven Test",
+            "request": "launch",
+            "mainClass": "org.codehaus.mojo.exec.ExecJavaMojo",
+            "args": "test"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
